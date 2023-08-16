@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ApiController {
-    @GetMapping("/welcome")
+    @GetMapping("/")
     public String Welcome(){
         return "Welcome String Boot!";
     }
